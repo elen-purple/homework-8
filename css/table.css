@@ -1,0 +1,39 @@
+table {
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 8px;
+  border: 2px solid grey;
+}
+
+td {
+  color: darkblue;
+  background-color: blue;
+}
+
+th {
+  color: darkcyan;
+  background-color: aquamarine;
+}
+
+td:hover {
+  color: orangered;
+  background-color: orange;
+  border: 2px solid black;
+}
+
+th:hover {
+  color: green;
+  background-color: greenyellow;
+  border: 2px solid black;
+}
+
+a {
+  color: plum;
+}
+
+a:hover {
+  color: purple;
+}
